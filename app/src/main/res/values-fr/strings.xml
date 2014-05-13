@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Chrono</string>
+    <string name="clear">Effacer</string>
+    <string name="pause">Pause</string>
+    <string name="start">Démarrer</string>
+    <string name="stop">Arréter</string>
+    <string name="goon">Reprendre</string>
+    <string name="action_settings">Configuration</string>
+    <string name="pref_strong_contrast">Contraste élevé</string>
+    <string name="pref_strong_contrast_summ">Utiliser un contraste important pour l\'affichage</string>
+    <string name="quit">Quitter</string>
+
+</resources>

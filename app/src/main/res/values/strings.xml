@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chrono</string>
+    <string name="dummy_content">00:00</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="goon">Continue</string>
+    <string name="clear">Clear</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_strong_contrast">Strong Contrast</string>
+    <string name="pref_strong_contrast_summ">Use a strong contrast display for the timer</string>
+    <string name="quit">Quitter</string>
+
+</resources>
