@@ -1,3 +1,6 @@
+*.apk
+*.ap_
+*.class
 .gradle
 /local.properties
 /.idea/workspace.xml
