@@ -16,7 +16,7 @@
         android:keepScreenOn="true"
         android:textColor="@color/light_blue"
         android:textStyle="bold"
-        android:textSize="300dp"
+        android:textSize="@dimen/text_size_xlarge_port"
         android:gravity="center"
         android:text="@string/dummy_content" />
 

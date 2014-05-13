@@ -81,6 +81,10 @@ public class Minuteur extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        setBackgroundColor();
+    }
+
+    private void setBackgroundColor(){
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         Boolean strongContrast = sharedPreferences.getBoolean("pref_strong_contrast", false);
         if (strongContrast){
@@ -92,29 +96,18 @@ public class Minuteur extends Activity {
             contentTextView.setTextColor(getResources().getColor(R.color.light_blue));
         }
     }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_minuteur);
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        Boolean strongContrast = sharedPreferences.getBoolean("pref_strong_contrast", false);
+
 
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
         contentView = findViewById(R.id.fullscreen_content);
         contentTextView = (TextView)findViewById(R.id.fullscreen_content);
         frameLayout = (FrameLayout)findViewById(R.id.framelayout);
-        if (strongContrast){
-            frameLayout.setBackgroundColor(getResources().getColor(R.color.red));
-            contentTextView.setTextColor(getResources().getColor(R.color.yellow));
-            //contentTextView.setTextColor(0x)
-        }else{
-            frameLayout.setBackgroundColor(getResources().getColor(R.color.blue));
-            contentTextView.setTextColor(getResources().getColor(R.color.light_blue));
-        }
-
-
+        setBackgroundColor();
         // Set up an instance of SystemUiHider to control the system UI for
         // this activity.
         mSystemUiHider = SystemUiHider.getInstance(this, contentView, HIDER_FLAGS);

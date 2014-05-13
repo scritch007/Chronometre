@@ -11,5 +11,4 @@
     <string name="pref_strong_contrast">Strong Contrast</string>
     <string name="pref_strong_contrast_summ">Use a strong contrast display for the timer</string>
     <string name="quit">Quitter</string>
-
 </resources>
