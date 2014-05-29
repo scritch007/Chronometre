@@ -10,15 +10,16 @@
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
-    <TextView android:id="@+id/fullscreen_content"
+    <TextView
+        android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:keepScreenOn="true"
-        android:textColor="@color/light_blue"
-        android:textStyle="bold"
-        android:textSize="@dimen/text_size_xlarge_land"
         android:gravity="center"
-        android:text="@string/dummy_content" />
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="@color/light_blue"
+        android:textSize="@dimen/text_size_xlarge_land"
+        android:textStyle="bold" />
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
@@ -27,7 +28,8 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
 
-        <LinearLayout android:id="@+id/fullscreen_content_controls"
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
             style="?metaButtonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,14 +38,16 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button android:id="@+id/start_pause_button"
+            <Button
+                android:id="@+id/start_pause_button"
                 style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/start" />
 
-            <Button android:id="@+id/stop_clear_button"
+            <Button
+                android:id="@+id/stop_clear_button"
                 style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

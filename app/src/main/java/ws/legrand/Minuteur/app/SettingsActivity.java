@@ -1,4 +1,4 @@
-                                                                                                            package ws.legrand.Minuteur.app;
+package ws.legrand.Minuteur.app;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.preference.PreferenceActivity;
  * Created by benjamin on 12/05/14.
  */
 public class SettingsActivity extends PreferenceActivity implements
-        SharedPreferences.OnSharedPreferenceChangeListener{
+        SharedPreferences.OnSharedPreferenceChangeListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

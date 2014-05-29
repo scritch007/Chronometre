@@ -1,13 +1,14 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Settings, should always be in the overflow -->
     <group>
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:showAsAction="never" />
+        <item
+            android:id="@+id/action_settings"
+            android:showAsAction="never"
+            android:title="@string/action_settings" />
     </group>
     <group>
-    <item android:id="@+id/action_quit"
-        android:title="@string/quit"
-        />
+        <item
+            android:id="@+id/action_quit"
+            android:title="@string/quit" />
     </group>
 </menu>

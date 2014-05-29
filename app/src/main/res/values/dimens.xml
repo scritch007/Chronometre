@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen
-		name="text_size_large_land"
-	>350dp</dimen>
-    <dimen
-        name="text_size_large_port"
-        >180dp</dimen>
-    <dimen
-        name="text_size_xlarge_land"
-        >450dp</dimen>
-    <dimen
-        name="text_size_xlarge_port"
-        >300dp</dimen>
-    <dimen
-        name="text_size_normal_land"
-        >200dp</dimen>
-    <dimen
-        name="text_size_normal_port"
-        >100dp</dimen>
-    <dimen
-        name="text_size_small_land"
-        >150dp</dimen>
-    <dimen
-        name="text_size_small_port"
-        >100dp</dimen>
+    <dimen name="text_size_large_land">300dp</dimen>
+    <dimen name="text_size_large_port">180dp</dimen>
+    <dimen name="text_size_xlarge_land">450dp</dimen>
+    <dimen name="text_size_xlarge_port">300dp</dimen>
+    <dimen name="text_size_normal_land">200dp</dimen>
+    <dimen name="text_size_normal_port">100dp</dimen>
+    <dimen name="text_size_small_land">150dp</dimen>
+    <dimen name="text_size_small_port">100dp</dimen>
 </resources>
